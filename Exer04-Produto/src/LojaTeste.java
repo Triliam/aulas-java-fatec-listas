@@ -18,7 +18,7 @@ public class LojaTeste {
 
         System.out.println("Qual o valor do produto? ");
         prod.setPrecoUnitario(scan.nextDouble());
-        scan.nextLine(); //forma de limpar o buffer com outro nextLine (após cada chamada para nextInt(), nextDouble()) e nao com sout que eu tinha falado
+        scan.nextLine(); //forma de limpar o buffer com  nextLine() (após cada chamada para nextInt(), nextDouble()) e nao com sout que eu tinha falado
 
         System.out.println("limpou o buffer? ");
         prod.setTestaLimpaBuffer(scan.nextLine());

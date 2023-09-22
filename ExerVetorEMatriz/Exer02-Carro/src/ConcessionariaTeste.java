@@ -6,7 +6,7 @@ public class ConcessionariaTeste {
 
        gol.imprimir();
 
-       //alterando valor com o metodo setValor
+       //alterando valor com o metodo setPreco
        gol.setPreco(40.00);
 
        gol.imprimir();
